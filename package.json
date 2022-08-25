@@ -1,0 +1,19 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch  NoteBooksLenovo.json --port 3001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.25.1",
+    "json-server": "0.13.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.25.1"
+  }
+}
